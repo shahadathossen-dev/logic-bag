@@ -1,0 +1,87 @@
+.waves.blue {
+    border-color: #007bff;
+}
+.waves.width50 {
+    width: 55px;
+    left: -7px;
+}
+.waves {
+    height: 30px;
+    bottom: -1px;
+    border-width: 2px;
+    position: absolute;
+    border-radius: 5px;
+    border-style: solid;
+    display: inline-block;
+    animation-name: waves;
+    -webkit-animation-name: waves;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.product-thumbnail.is_new .item_new {
+    display: inline-block;
+}
+.product-thumbnail .item_new {
+    background: blue;
+}
+.product-thumbnail .item_mark {
+    display: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.review-form .input,
+.review-edit-form .input {
+  font-size: 13px;
+}
+
+.review-form .input-rating .stars,
+.review-edit-form .input-rating .stars {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.review-form .input-rating .stars input[type="radio"],
+.review-edit-form .input-rating .stars input[type="radio"] {
+  display: none;
+}
+
+.review-form .input-rating .stars>label,
+.review-eidt-form .input-rating .stars>label {
+  float: right;
+  cursor: pointer;
+  padding: 0px 3px;
+  margin: 0px;
+}
+
+.review-form .input-rating .stars>label:before,
+.review-edit-form .input-rating .stars>label:before {
+  content: "\f005";
+  font-size: 15px;
+  color: #E4E7ED;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
+.review-form .input-rating .stars>label:hover:before, .review-form .input-rating .stars>label:hover~label:before,
+.review-edit-form .input-rating .stars>label:hover:before, .review-edit-form .input-rating .stars>label:hover~label:before {
+  color: #44C300;
+  font-weight: 900;
+}
+
+.review-edit-form .input-rating .stars>input:checked label:before,
+.review-edit-form .input-rating .stars>input:checked~label:before {
+  color: #44C300;
+  font-weight: 900;
+}

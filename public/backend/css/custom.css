@@ -1,0 +1,564 @@
+
+.rating_r i::before {
+  font-family: 'Font Awesome 5 Free';
+  content: "\f005"; /*f69a, f5c0*/
+  font-style: normal;
+  font-size: 16px;
+  margin-right: 4px;
+  color: #44C300;
+  font-weight: 400;
+}
+
+.rating_r_1 i:first-child::before{font-weight: 900;}
+.rating_r_2 i:first-child::before{font-weight: 900;}
+.rating_r_2 i:nth-child(2)::before{font-weight: 900;}
+.rating_r_3 i:first-child::before{font-weight: 900;}
+.rating_r_3 i:nth-child(2)::before{font-weight: 900;}
+.rating_r_3 i:nth-child(3)::before{font-weight: 900;}
+.rating_r_4 i:first-child::before{font-weight: 900;}
+.rating_r_4 i:nth-child(2)::before{font-weight: 900;}
+.rating_r_4 i:nth-child(3)::before{font-weight: 900;}
+.rating_r_4 i:nth-child(4)::before{font-weight: 900;}
+.rating_r_5 i:first-child::before{font-weight: 900;}
+.rating_r_5 i:nth-child(2)::before{font-weight: 900;}
+.rating_r_5 i:nth-child(3)::before{font-weight: 900;}
+.rating_r_5 i:nth-child(4)::before{font-weight: 900;}
+.rating_r_5 i:nth-child(5)::before{font-weight: 900;}
+
+.rating_r_1_plus i:first-child::before{font-weight: 900;}
+.rating_r_1_plus i:nth-child(2)::before{content: "\f5c0"; font-weight: 900;}
+.rating_r_2_plus i:first-child::before{font-weight: 900;}
+.rating_r_2_plus i:nth-child(2)::before{font-weight: 900;}
+.rating_r_2_plus i:nth-child(3)::before{content: "\f5c0"; font-weight: 900;}
+.rating_r_3_plus i:first-child::before{font-weight: 900;}
+.rating_r_3_plus i:nth-child(2)::before{font-weight: 900;}
+.rating_r_3_plus i:nth-child(3)::before{font-weight: 900;}
+.rating_r_3_plus i:nth-child(4)::before{content: "\f5c0"; font-weight: 900;}
+.rating_r_4_plus i:first-child::before{font-weight: 900;}
+.rating_r_4_plus i:nth-child(2)::before{font-weight: 900;}
+.rating_r_4_plus i:nth-child(3)::before{font-weight: 900;}
+.rating_r_4_plus i:nth-child(4)::before{font-weight: 900;}
+.rating_r_4_plus i:nth-child(5)::before{content: "\f5c0"; font-weight: 900;}
+
+.nav-sidebar .nav-item {
+  border-radius: 0px;
+  width: 100%;
+}
+
+.nav-sidebar .nav-item.card {
+  margin-bottom: 2px !important;
+  background-color: transparent;
+  border-radius: 0 !important;
+}
+
+.nav-sidebar .nav-item > .card-header {
+  padding: 0px;
+  color: #ffffff;
+  border-bottom: 0;
+}
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .card-header .nav-link.collapsed {
+  box-shadow: none;
+  background-color: #374850;
+}
+
+.sidebar-dark-primary .nav-sidebar  .card-body .nav > .nav-item.active {
+  box-shadow: none;
+  background-color: #ABB1BA;
+}
+
+.nav-sidebar .nav-item > .card-header .nav-link {
+  background-color: #529053;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #ddd !important;
+}
+
+.nav-sidebar .collapse .card-body {
+  margin-bottom: 2px;
+}
+
+.collapse .card-body li.nav-item > .nav-link {
+  padding-right: 10px;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-sidebar .nav-item > .nav-link .right {
+  transition: transform ease-in-out 0.3s;
+}
+
+#users .btn {
+  padding: 5px;
+  font-size: 13px;
+}
+
+#notification-board li {
+  border-bottom: 1px solid #ddd;
+}
+
+#notification-board .notification-item > a.read-notification.read.text-muted {
+  color: gray !important;
+}
+.notifications-batch a.notification-action:hover,
+#notifications a.read-notification:hover,
+#notification-board .notification-footer a.notification-action:hover {
+  color: green !important;
+}
+
+.notification-list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.notification-list li {
+  padding: 3px 0;
+  width: 100%;
+  text-align: left;
+}
+
+#notifications {
+  border-collapse: collapse !important;
+}
+#notifications thead th {
+  border: none;
+  background-color: #ABB1BA;
+}
+
+#notifications tbody td {
+  border: none;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+#notifications .btn-container .btn {
+  padding: 0 5px;
+  border: none;
+
+}
+
+.notifications-batch a.notification-action,
+.btn-container a.btn-tool,
+#notifications a.read-notification {
+  color: #141414;
+}
+
+ {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+a.isDisabled,
+.isDisabled > a {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Over Write default CSS */
+.dropdown-item.active, .dropdown-item:active {
+  /*background-color: none;*/
+}
+
+.is-valid::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  color: green;
+}
+
+.start-upload {
+  display: none;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.is-valid .start-upload {
+  display: inline-block;
+}
+
+.is-valid .start-upload::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "\2713";
+  color: green;
+  left: 1px;
+  top: -2px;
+}
+
+.review-pane, 
+.message-pane {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.review, 
+.message {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px; 
+}
+
+.review .no-gutters, 
+.message .no-gutters {
+  padding: 0;
+}
+
+.review .user-img , 
+.message .user-img {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+  float: right;
+}
+
+.review .desc .star,
+.review .desc h4,
+.message .desc .about,
+.message .desc h4 {
+  width: 100%;
+  position: relative;
+  height: 20px;
+}
+
+.review .desc h4 span,
+.message .desc h4 span {
+  display: inline-block;
+  position: absolute;
+}
+
+.review .reply-form-field,
+.message .reply-form-field {
+  margin-top: 10px;
+}
+
+.review .reply-form-field button,
+.review .reply-form-field textarea,
+.review .reply-edit-form-field button,
+.review .reply-edit-form-field textarea,
+.message .reply-form-field button,
+.message .reply-form-field textarea {
+  line-height: 15px;
+  font-size: 13px;
+}
+
+#review .pagination,
+#message .pagination {
+  float: right;
+  display: inline-block;
+}
+
+#review .page-item,
+#message .page-item {
+  display: inline-block;
+}
+
+.review .desc,
+.message .desc {
+  padding-bottom: 5px;
+}
+
+.review .desc .star span.rating_r,
+.review .desc h4 span.text-left,
+.message .desc .about span.subject,
+.message .desc h4 span.text-left {
+  left: 0;
+}
+
+.review .desc .star span.text-right,
+.review .desc h4 span.text-right,
+.message .desc .about span.text-right,
+.message .desc h4 span.text-right {
+  right: 0;
+}
+
+.review .desc h4 span:first-child,
+.message .desc h4 span:first-child {
+  font-size: 16px; 
+}
+
+.review .desc h4 span:last-child i,
+.message .desc h4 span:last-child i {
+  color: darkturquoise; 
+}
+
+.review .desc .star span,
+.message .desc .about span {
+  position: absolute;
+  display: inline-block; 
+}
+
+.review .desc .star span.rating_r,
+.message .desc .about span.subject {
+  width: 70%;
+}
+
+.review .desc h4 span.date,
+.review .desc .star span.text-right,
+.message .desc h4 span.date,
+.message .desc .about span.text-right {
+  width: 30%;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.review .desc h4 span.minimize,
+.review .edit-panel .edit,
+.message .action-panel .action,
+.review .edit-panel .reply-btn,
+.message .desc h4 span.minimize {
+  padding: 0 10px;
+  background: #f0f0f0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; 
+  color: darkturquoise;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.review .edit-panel .edit a,
+.message .edit-panel .edit a {
+  color: darkturquoise;
+  vertical-align: top;
+}
+
+.review .reply .desc h4 span:last-child,
+.review .desc h4 span:last-child,
+.message .reply .desc h4 span:last-child,
+.message .desc h4 span:last-child {
+  font-size: 12px;
+  padding: 0px 5px;
+  color: #b3b3b3;
+}
+
+.review .desc h4 span.minimize:hover,
+.review .edit-panel .edit:hover,
+.message .action-panel .action:hover,
+.review .edit-panel .reply-btn:hover {
+  cursor: pointer; 
+  color: green;
+}
+
+.message .action-panel .action .trash:hover {
+  /*cursor: pointer; */
+  color: red;
+}
+
+.review .desc p:not(.star),
+.message .desc p:not(.about) {
+  color: #656565;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.review .edit-panel,
+.message .action-panel {
+  background: #f0f0f0;
+  height: 20px;
+}
+
+.review .desc h4 span.minimize i,
+.review .edit-panel .reply-btn i,
+.review .edit-panel .reply-btn i,
+.message .desc h4 span.minimize i {
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.review .reply-pane,
+.message .reply-pane {
+  margin-right: 0;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.review .reply-pane .reply .desc p,
+.message .reply-pane .reply .desc p {
+  color: #656565;
+}
+
+/*-- Reply Form --*/
+
+.reply-form .input {
+  font-size: 13px;
+}
+
+/* ======================= Invoice Page css ======================= */
+
+#invoice {
+  font-family: "Tinos", Serif;
+  font-weight: 400;
+  font-size: 13px;  
+}
+
+#invoice .top-bar {
+  width: 100%;
+}
+  
+#invoice .company {
+  width: 50%;
+  display: inline-block;
+}
+
+#invoice .logo {
+  display: inline;
+  width: 30px;
+  vertical-align: baseline;
+}
+
+#invoice .company .name {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+#invoice .date {
+  text-align: right;
+  width: 49%;
+  display: inline-block;
+}
+
+#invoice .title-section {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; 
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: lightGrey;
+}
+
+#invoice .address-section {
+  width: 100%;
+}
+
+#invoice .from, #invoice  .to, #invoice .invoice-id {
+  display: inline-block;
+  width: 33%;
+}
+
+#invoice .items-section {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#invoice .items-section h2 {
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center; 
+  background-color: lightGrey;
+}
+
+#invoice .items-section table {
+  width: 95%;
+  border: 1px solid;
+  margin: 10px auto;
+  border-collapse: collapse;
+  text-align: center; 
+}
+
+#invoice .items-section tr {
+  height: 40px;
+}
+
+#invoice .items-section th {
+  background-color: lightGrey;
+  border: 1px solid;
+  border-bottom: 1px solid;
+}
+
+#invoice .items-section td, #invoice .items-section th {
+  border-right: 1px dashed;
+  border-left: 1px dashed;
+}
+
+.payment-section {
+  margin-bottom: 40px;
+}
+
+.payment-section .payment-methods, .payment-section .payment-summary, .authorized, .customer  {
+  width: 49%;
+  display: inline-block;
+}
+
+/*.payment-section .payment-summary {
+  width: 49%;
+  display: inline-block;
+}*/
+
+.payment-methods img {
+  width: 50px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.payment-methods img:first-child {
+  margin-left: 20px;
+}
+
+.payment-summary table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payment-summary th {
+  background-color: lightGrey;
+}
+
+.payment-summary th, .payment-summary td {
+  border-bottom: 1px solid lightGrey;
+}
+
+.value {
+  text-align: right; 
+  font-weight: bold;
+}
+
+.action-section, .signature-section {
+  width: 90%;
+  clear: both;
+  margin: 40px auto;
+}
+
+.signature-section {
+  text-align: center;
+}
+
+.action-section, .authorized {
+  text-align: left;
+}
+
+.customer {
+  text-align: right;
+}
+
+ .export, .print {
+  display: inline-block;
+ }
+
+/* ======================= Invoice Page css ======================= */
+
+
